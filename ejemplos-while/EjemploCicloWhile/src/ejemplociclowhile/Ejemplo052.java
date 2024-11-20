@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo051 {
+public class Ejemplo052 {
     /**
      * @param args the command line arguments
      */
@@ -37,7 +37,7 @@ public class Ejemplo051 {
                     + "número %d\n", contador);
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
-            mensajeFinal = String.format("%s%f\n", 
+            mensajeFinal = String.format("%s\n%.1f", 
                     mensajeFinal, calificacion);
             // "" + 7.5 + "\" == 7.5\n
             // contador
