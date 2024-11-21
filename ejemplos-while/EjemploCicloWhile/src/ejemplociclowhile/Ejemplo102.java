@@ -50,7 +50,7 @@ public class Ejemplo102 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        int limite_tabla = 12;
+        int limite_tabla= 12;
         int contador = 1;
         int operacion;
         int tabla;
@@ -72,7 +72,7 @@ public class Ejemplo102 {
             
             
             cadenaSuma = String.format("%s%d+%d=%d\n", 
-                    cadena, 
+                    cadenaSuma, 
                     tabla, 
                     contador,
                     operacion);
@@ -81,7 +81,7 @@ public class Ejemplo102 {
             
             
             cadenaResta = String.format("%s%d-%d=%d\n", 
-                    cadena, 
+                    cadenaResta, 
                     tabla, 
                     contador,
                     operacion);
@@ -90,7 +90,7 @@ public class Ejemplo102 {
             
             
             cadenaMultiplicar = String.format("%s%d*%d=%d\n", 
-                    cadena, 
+                    cadenaMultiplicar, 
                     tabla, 
                     contador,
                     operacion);
