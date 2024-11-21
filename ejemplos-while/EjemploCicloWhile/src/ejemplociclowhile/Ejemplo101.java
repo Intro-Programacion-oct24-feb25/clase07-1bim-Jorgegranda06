@@ -31,6 +31,15 @@ public class Ejemplo101 {
         String cadena = ""; // cadena acumulador
         cadena = String.format("%sTabla de multiplicar\n", cadena);
         
+        System.out.println("Ingrese el limite de la tabla");
+        limite_tabla = entrada.nextInt();
+        
+        if(limite_tabla <= 0){
+            limite_tabla= 12;
+        }else{
+            limite_tabla = limite_tabla;
+        }
+        
         while (contador <= limite_tabla){
             operacion = tabla * contador;
             
